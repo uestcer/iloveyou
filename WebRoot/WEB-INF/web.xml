@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ilovey</display-name>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/index.jsp</location>
+  </error-page>
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>cn.demiaowu.iloveyou.LoginFilter</filter-class>
+  </filter>
+  <filter>
+    <filter-name>HomeFilter</filter-name>
+    <filter-class>cn.demiaowu.iloveyou..HomeFilter</filter-class>
+  </filter>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.demiaowu.iloveyou.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>cn.demiaowu.iloveyou.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/servlets/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>HomeFilter</filter-name>
+    <url-pattern>/home/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
