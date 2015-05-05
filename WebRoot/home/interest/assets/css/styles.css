@@ -1,0 +1,173 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Page Styles
+--------------------------*/
+
+
+html{
+	background:url('../img/bg.png') #070707;
+	position:relative;
+}
+
+body{
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	height:100%;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+section, footer, nav{
+	display: block;
+}
+
+
+/*----------------------------
+	The Gallery
+-----------------------------*/
+
+
+h1{
+	font: 36px 'Cookie', cursive;
+	color: white;
+	width: 210px;
+	margin: 20px auto 50px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#gallery{
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#gallery li{
+	list-style: none;
+	float: left;
+	margin: 6px 8px;
+	width:146px;
+	height:146px;
+}
+
+#gallery a{
+	display:block;
+	background-color:#fff;
+	padding:3px;
+	box-shadow:0 2px #7a7a7a;
+}
+
+#gallery a img{
+	display:block;
+	width:140px;
+	height:140px;
+}
+
+#gravityButton{
+	
+	display:block;
+	
+	background: #8728d3;
+	background: -moz-linear-gradient(top,  #8728d3 0%, #461474 100%);
+	background: -webkit-linear-gradient(top,  #8728d3 0%,#461474 100%);
+	background: -o-linear-gradient(top,  #8728d3 0%,#461474 100%);
+	background: linear-gradient(to bottom,  #8728d3 0%,#461474 100%);
+
+	color:#fff;
+	font: 22px 'Cookie', cursive;
+	
+	text-align:center;
+	margin: 25px auto 50px;
+	width: 120px;
+	
+	border-radius: 3px;
+	padding: 10px;
+	text-decoration: none !important;
+	box-shadow: 0 0 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	text-shadow: 1px 1px 0px rgba(40, 40, 40, 0.6);
+	
+	opacity:0.9;
+}
+
+#gravityButton:hover{
+	opacity:1;
+}
+
+/* This class is automatically added to the photos when the physics simulation starts */
+.box2d a{
+	/*box-shadow:none !important;*/
+	cursor:move;
+}
+
+
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	background-color: #111111;
+	bottom: 0;
+	box-shadow: 0 -1px 2px #111111;
+	height: 45px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+
+footer h2{
+	color: #EEEEEE;
+	font-size: 14px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 13px 0 0;
+	position: absolute;
+	width: 540px;
+}
+
+footer h2 i{
+	font-style:normal;
+	color:#888;
+}
+
+footer a.tzine,a.tzine:visited{
+	color: #999999;
+	font-size: 12px;
+	left: 50%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+footer a i{
+	color:#ccc;
+	font-style: normal;
+}
+
+footer a i b{
+	color:#c92020;
+	font-weight: normal;
+}
