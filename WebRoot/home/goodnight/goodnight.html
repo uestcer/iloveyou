@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>♥亲爱的，晚安♥</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+<div style="text-align:center;clear:both">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>
+  <div id="container">
+	<label class="to-back-label" for="to-back"><i class="fa fa-bars fa-lg"></i></label>
+	<input type="checkbox" id="to-back"><!-- playlist toggle -->
+	<canvas id="progress" width="320" height="320"></canvas><!-- progress bar -->
+	<div id="player">
+		<audio id="audio" controls>
+			<source src="liuruoying-houlai.mp3" type="audio/mpeg" codecs="mp3"></source>		
+		</audio>
+		<img src="love2.jpg"><!-- album cover -->
+		<label class="to-lyrics-label" for="to-lyrics"><i class="fa fa-caret-down fa-lg"></i></label>
+		<input type="checkbox" id="to-lyrics"><!-- lyrics toggle -->
+		<div class="cover">
+			<div class="controls">
+				<button id="backward" title="Backward"><i class="fa fa-retweet fa-lg"></i></button>
+				<button id="backward" title="Backward"><i class="fa fa-backward fa-2x"></i></button>
+				<button id="play-pause" title="Play" onclick="togglePlayPause()"><i class="fa fa-play fa-3x"></i></button>
+				<button id="forward" title="Forward"><i class="fa fa-forward fa-2x"></i></button>
+				<button id="backward" title="Backward"><i class="fa fa-random fa-lg"></i></button>
+				<input id="volume" name="volume" min="0" max="1" step="0.1" type="range" onchange="setVolume()" />
+			</div><!-- #controls -->
+			<div class="info">
+				<p class="song"><a href="#">♥</a></p>
+				<p class="author"><a href="#">亲爱</a></p>
+			</div><!-- #info -->
+			<div class="lyrics">
+				<p>Hello，在干嘛呢？</p>
+				<p>今天情人节哦~哈哈~有没有想我啊？</p>
+				<p>对不起，没能在陪伴在你身边~都怪我~</p>
+				<p>亲爱，I love you.♥</p>
+				<p>哈哈~♥情人节快乐~记得永远开心~</p>
+				<p>from:***</p>
+				<p></p>
+				<p></p>
+				<p></p>
+			</div><!-- #lyrics -->
+			<p class="scroll">scroll down</p>
+		</div><!-- #cover -->
+	</div><!-- #player -->
+	<div id="flip-back">
+		<ul class="playlist">
+			<h3>亲爱的，情人节快乐~</h3>
+			<li><a href="#">偷偷把一些话放在这里藏着，不知道你能不能看到。</a></li>
+			<li><a href="#">真的不知道为什么</a></li>
+			<li><a href="#" style="color:#26C5CB;"><i class="fa fa-play" style="margin-right:4px;"></i>一切都会成为这样</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			<li><a href="#">这里可以写一堆你想说的话</a></li>
+			
+
+		</ul>
+	</div><!-- #flip-back -->
+</div><!-- #container -->
+
+<div class="credits">
+	<p>"亲爱的，<a href="#">晚安 ♥。</a>" from: <a href="#">妙</a><a href="#"></a></p>
+</div><!-- #credits -->
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
