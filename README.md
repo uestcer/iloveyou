@@ -4,8 +4,8 @@ suprised to your gril friend. :D
 
 
 ##Quick to start##
-You can get a quick views of the website by downloading the war package-iloveyou.war, And then copy it to the param baseDir of the http server 
-of tomcat. Lanuching tomcat server.Inputing the web address of "http://localhost:8080/iloveyou" on the browser.The username and password are "iloveyou" and you can login to see the whole website.
+	You can get a quick views of the website by downloading the war package-iloveyou.war, And then copy it to the param baseDir of the http server 
+	of tomcat. Lanuching tomcat server.Inputing the web address of "http://localhost:8080/iloveyou" on the browser.The username and password are "iloveyou" and you can login to see the whole website.
 
 ##Usage##
 I agree that It's not necessary to repeat what others have did. And I 
