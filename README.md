@@ -18,8 +18,17 @@ eg: the name,picture and word and at all.
 
 You just need use the WebRoot and src to replace you project. All of the static pages are in the /WebRoot/home, different model have different Working directory.Fellowing is the map of the model and the directory:
 	爱你<-->/WebRoot/home/iloveyou
+	相册<-->/WebRoot/home/album
+	有趣<-->/WebRoot/home/interest
+	烟火<-->/WebRoot/home/fireworks
+	晚安<-->/WebRoot/home/goodnight
+###Some screenshots###
 	
+![](http://i.imgur.com/XTFLhmM.png)
 	
+![](http://i.imgur.com/q80rACk.png)
+
+![](http://i.imgur.com/oAWiGct.png)
 	
 
 ##Acknowledgements##
