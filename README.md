@@ -5,18 +5,18 @@ suprised to your gril friend. :>
 
 ##Quick to start##
 You can get a quick views of the website by downloading the war package-iloveyou.war, And then copy it to the param baseDir of the http server 
-of tomcat. Lanuching tomcat server.Inputing the web address of "http://localhost:8080/iloveyou" on the browser.All of the username and password are "iloveyou".Good luck~~~
+of tomcat. Lanuching tomcat server.Inputing the web address of "http://localhost:8080/iloveyou" on the browser.The username and password are "iloveyou" and you can login to see the whole website.
 
 ##Usage##
-I believe that It's not necessary to repeat what someone else have did. So I 
-have used many web pages which gether from the internet. They are very pretty and all have a cool design. Many thanks for their authors.
+I agree that It's not necessary to repeat what others have did. And I 
+have used many web pages which gether from the internet. They are very pretty and all have a cool design. Many thanks for the creator.
 
 This is a common Java Web project.You might have some revamps before you use it.
 eg: the name,picture and word and at all.
 	罗密欧->your name
 	朱丽叶->her name
 
-You just need use the WebRoot and src to replace you project. All of the static pages are in the /WebRoot/home, different model have different Working directory.Fellowing is the map of the model and the directory:
+You just need use the WebRoot and src to replace  appropriate directory. All of the static pages are in the directory of /WebRoot/home, and different model have different Working directory.Fellowing is the map of the model and the directory:
 	
 
 - 爱你<-->/WebRoot/home/iloveyou
