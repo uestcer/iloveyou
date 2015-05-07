@@ -15,11 +15,14 @@
 	design. Many thanks for the creator.
 
 	This is a common Java Web project.You might have some revamps before you use it.
-	eg: the name,picture and word and at all.
+	eg: the name
 		罗密欧->your name
 		朱丽叶->her name
+		
+		pictures in album, title, text content, music of the model of goodnight etc.
 
-	You just need use the WebRoot and src to replace  appropriate directory. All of the 
+
+	You just need use the WebRoot and src to replace appropriate directory. All of the 
 	static pages are in the directory of /WebRoot/home, and different model have different
 	Working directory.Fellowing is the map of the model and the directory:
 	
