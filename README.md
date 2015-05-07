@@ -19,9 +19,9 @@ suprised to your gril friend. :D
 		罗密欧->your name
 		朱丽叶->her name
 
-	You just need use the WebRoot and src to replace  appropriate directory. All of the static 
-	pages are in the directory of /WebRoot/home, and different model have different Working 
-	directory.Fellowing is the map of the model and the directory:
+	You just need use the WebRoot and src to replace  appropriate directory. All of the 
+	static pages are in the directory of /WebRoot/home, and different model have different
+	Working directory.Fellowing is the map of the model and the directory:
 	
 
 - 爱你<-->/WebRoot/home/iloveyou
@@ -50,8 +50,8 @@ suprised to your gril friend. :D
 	But what I want to empharize is that I'm not good at Web development and especially in
 	Front End. Factly, most of my time are concentrated on background development.I do it 
 	just for fun. Most web pages of this project are get from internet, and I just put them 
-	together.If you have any questions or proposals you can contact me by the email: cfreestar@163.com. 
-	Thank you for your interesting.
+	together.If you have any questions or proposals you can contact me by the email:
+	cfreestar@163.com. Thank you for your interesting.
 
 												    	
 												    		demiaowu
