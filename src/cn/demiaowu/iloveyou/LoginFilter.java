@@ -11,7 +11,12 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+/**
+ * 
+ * @author demiaowu
+ * @email cfreestar@163.com
+ * login filter
+ */
 public class LoginFilter implements Filter {
 
 	@Override
@@ -33,8 +38,10 @@ public class LoginFilter implements Filter {
 			arg2.doFilter(arg0, arg1);
 		} else {
 			session.setAttribute("loginError", "Sorry, Please login first.");
+			System.out.println("Ã»ÓÐµÇÂ¼ÄØ~");
 			response.sendRedirect(request.getContextPath()+"/servlet/Login");
 		}
+
 
 	}
 

@@ -7,7 +7,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+/**
+ * 
+ * @author demiaowu
+ * @email cfreestar@163.com
+ * verification of login
+ */
 public class LoginServlet extends HttpServlet {
 
 	/**
