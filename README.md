@@ -1,6 +1,6 @@
 ##iloveyou ##
 	This a interesting website which can be used for giving pleasantly suprised to your
-	gril friend. :D
+	girl friend. :D
 
 
 ##Quick to start##
